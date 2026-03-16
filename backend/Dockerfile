@@ -6,11 +6,11 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     binutils \
-    build-essential \
-    gdal-bin \
-    libgdal-dev \
-    libpq-dev \
-    libproj-dev \
+    gdal-data \
+    libgdal36 \
+    libgeos-c1t64 \
+    libproj25 \
+    proj-data \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
