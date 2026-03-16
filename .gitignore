@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.env.local
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+backend/.coverage
+backend/staticfiles/
+frontend/dist/
+frontend/node_modules/
+coverage/
